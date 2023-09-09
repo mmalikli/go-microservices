@@ -3,7 +3,7 @@ version: '3'
 services:
   broker-servce:
     build:
-      context: ./broker/
+      context: ./broker-service/
       dockerfile: broker-service.Dockerfile
     restart: always
     ports: 
